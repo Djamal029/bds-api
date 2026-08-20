@@ -129,4 +129,6 @@ regenerate them.
 
 See `Cahier_des_charges.md` for the product-level scope this skeleton
 is standing in for — what the real BDS platform does, so the
-architecture choices here make sense in context.
+architecture choices here make sense in context — including the team's
+build roadmap toward a full MVP, and `diagramme_classes_bds_api.html`
+for the class diagram that roadmap builds toward.

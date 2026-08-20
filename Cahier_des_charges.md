@@ -46,6 +46,15 @@ never raw engine-specific SQL. See `CONTRIBUTING.md` for the exact
 setup and the one caveat (SQLite cannot run this project's — hypothetical,
 once it has one — MySQL-only Alembic migration chain).
 
+## Data model
+
+`diagramme_classes_bds_api.html` has the full class diagram — not just
+what's implemented today, but the target model every roadmap phase
+below builds toward, color-coded by which phase introduces each class,
+plus a relationships table (every foreign key, its multiplicity, and
+which two classes it connects). Read it alongside the roadmap; the two
+are meant to update together.
+
 ## Build roadmap: from auth-only to a full BDS MVP
 
 This is the team's plan for building the rest of the platform in this
